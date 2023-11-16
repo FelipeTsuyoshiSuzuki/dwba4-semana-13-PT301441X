@@ -67,7 +67,7 @@
                     <td>{{ contatos[value]['telefone'] }}</td>
                     <td>{{ contatos[value]['assunto'] }}</td>
                     <td>{{ contatos[value]['mensagem'] }}</td>
-                    <td>{{ ', '.join(contatos[value]['resposta']) if contatos[value]['resposta'] else '------' }}</td>
+                    <td>{{ ', '.join(contatos[value]['resposta']) if contatos[value]['resposta'] else '-------' }}</td>
                 </tr>  
             {% endfor %}                      
         </table>    
